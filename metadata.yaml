@@ -1,0 +1,17 @@
+name: astrbot_plugin_stockprice
+display_name: A股股价查询
+desc: 一个用于查询A股股票实时股价的插件，支持沪市和深市，数据来源于新浪财经
+help: |
+  输入 "/查询股价 [股票代码]" 查询A股实时股价
+  
+  支持的格式：
+  - 纯数字：600000、000001、300001
+  - 带前缀：sh600000、sz000001、sz300001
+  
+  示例：
+  - /查询股价 600000
+  - /查询股价 sh600000
+  - /查询股价 000001
+version: v1.0
+author: waterfeet
+repo: https://github.com/waterfeet/astrbot_plugin_stockprice
